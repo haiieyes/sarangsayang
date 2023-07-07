@@ -29,11 +29,24 @@ const Header = () => {
               aria-current="page"
               href="#"
             >
-              <button type="button" className="btn btn-outline-info btn-sm">
+              <button
+                type="button"
+                className="btn btn-outline-info btn-sm"
+                data-bs-toggle="offcanvas"
+                data-bs-target="#offcanvasResponsive"
+                aria-controls="offcanvasResponsive"
+              >
                 Become a Vendor
               </button>
             </a>
-            <a className=" nav-link text-secondary align-self-center" href="#">
+            <a
+              className=" nav-link text-secondary align-self-center"
+              href="#"
+              type="button"
+              data-bs-toggle="offcanvas"
+              data-bs-target="#offcanvasRight"
+              aria-controls="offcanvasRight"
+            >
               <i
                 className={
                   isHovering
