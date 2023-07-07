@@ -1,0 +1,45 @@
+{
+    "listName": "catering",
+    "cateringList": 
+        [{
+            "id": "BRIDAL1",
+            "name": "Aidah Bridal & Boutique",
+            "packageA": 4000,
+            "packageB": 4500,
+            "packageC": 6000,
+            "updatedSince": "June 2023",
+            "photo": "./images/bridals/bridal1.jpeg",
+            "location": "Joo Chiat",
+            "email": "aidahbridal@gmail.com",
+            "service":["Bridal Packages",
+            "Make-up Packages",
+            "Muslimah Wedding Dress and Wear"]
+        },
+        {
+            "id": "BRIDAL2",
+            "name": "Lulu Alhadad Designs",
+            "packageA": 4500,
+            "packageB": 5500,
+            "packageC": 8300,
+            "updatedSince": "May 2023",
+            "photo": "./images/bridals/bridal2.jpeg",
+            "location": "Tampines",
+            "email": "contact@lulualhadad.com",
+            "service":["Bridal Packages",
+            "Make-up Packages"] 
+        },
+        {
+            "id": "BRIDAL3",
+            "name": "Fatimah Mohsin The Wedding Gallery",
+            "packageA": 7000,
+            "packageB": 8500,
+            "packageC": 10300,
+            "updatedSince": "Jan 2023",
+            "photo": "./images/bridals/bridal3.jpeg",
+            "location": "Ubi",
+            "email": "info@fatimahmohsin.com",
+            "service":["Bridal Packages",
+            "Wedding Packages", "General Wedding Services"] 
+        }
+        ]
+}
